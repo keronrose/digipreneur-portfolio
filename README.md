@@ -4,7 +4,7 @@
 
 I’m Keron Rose. I built Digipreneur Network to bring years of work in digital business, marketing, e-commerce, and technology into one place I own. Then I built two products around problems I kept seeing. **Digipreneur Jobs** helps people find remote opportunities they can realistically pursue. **Luna AI** helps them work out which of those jobs fit the experience they already have.
 
-[**Explore Digipreneur Network**](https://digipreneur.network/) · [**Browse Digipreneur Jobs**](https://digipreneur.network/jobs/) · [**Try Luna AI**](https://digipreneur.network/jobs/match/)
+[**Explore Digipreneur Network**](https://digipreneur.network/) · [**Browse Digipreneur Jobs**](https://digipreneur.network/jobs/) · [**Try Luna AI**](https://digipreneur.network/jobs/match/) · [**See a sample result**](#a-sample-luna-result)
 
 ## Why I built the Network
 
@@ -29,6 +29,16 @@ After launching Jobs, people started sending me résumés by email and DM and as
 People were already using the board. When I introduced Luna, I shared that more than **13,000 people** visited the platform in the first month, and reporting recorded more than **5,000 clicks through to employer application pages**. Those clicks measure the step we can observe on our side. The messages told me what the numbers couldn’t, and I spent four days building the first version of Luna. [Read the Luna launch story.](https://digipreneur.network/luna-ai-remote-job-matcher/)
 
 Luna lets someone start with their résumé. It compares their experience with live jobs, surfaces roles they might never have known to search for, and explains which duties their experience supports and which requirements they still need to check. The applicant decides where to apply.
+
+### A sample Luna result
+
+**Payroll Operations Coordinator** · Fictional example based on a QA test
+
+| What the employer asks for | What the résumé shows | What to check |
+| --- | --- | --- |
+| “Audit timecards, reconcile deductions, and resolve payroll queries.” | “I audit timecards and reconcile deductions.” | The résumé covers the first two duties. It gives no example of resolving payroll queries. |
+
+That’s the kind of result I wanted Luna to give people. You can see where your experience overlaps and what you’d want to confirm before applying.
 
 ### How the two products work together
 
