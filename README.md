@@ -14,6 +14,12 @@ I’m Keron Rose. I built Digipreneur Network to bring years of work in digital 
 | **Digipreneur Jobs** | A live remote job board with employer-source checks, search, filters, Job Alerts, and dashboards for the inventory, operations, audience, and job market. | [Live jobs board](https://digipreneur.network/jobs/) |
 | **Luna AI** | A résumé matcher with ranked live jobs, evidence-based explanations, and a dashboard that tracks usage, match delivery, and reliability. | [Try Luna](https://digipreneur.network/jobs/match/) · [See a sample result](#a-sample-luna-result) |
 
+## See the products in action
+
+[**Take the visual tour**](VISUAL-TOUR.md) to see Job Alerts, the Jobs and Luna reporting dashboards, and a Luna result with fictional résumé evidence.
+
+[![Live Digipreneur Jobs board with filters and remote job listings](jobs-board.jpg)](VISUAL-TOUR.md#digipreneur-jobs-board)
+
 ## Why I built the Network
 
 For years, my work lived across radio, television, newspaper columns, podcasts, workshops, and social media. Somebody might hear me on *The Digital World* or see a CNC3 segment, then have to look somewhere else for the resources that would help them act on it. I wanted one home for that work, and somewhere I could build the resources I kept wishing existed for our region.
