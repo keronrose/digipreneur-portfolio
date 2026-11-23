@@ -96,6 +96,12 @@ I verified the changes on desktop and at mobile width, including slow connection
 
 The [full feature inventory](FEATURES.md) walks through the Network's publishing and resource tools, the Jobs Engine's source and review workflow, Job Alerts, both reporting systems, and how Luna earns a match recommendation. It includes a diagram of how all three products connect.
 
+## What improved after launch
+
+Once people started using Luna, I worked on the parts of the experience that needed to hold up in practice. A résumé submission can now recover if the connection drops after it reaches us. I also improved how Luna reads employer requirements. For example, when an advert asks for one of several languages, a résumé that shows someone built an API in Python can get credit for that requirement. The Strong Match standard stays the same.
+
+On Digipreneur Jobs, I cut the work needed to open the first page. I checked that people could still move between pages, open a full job description, and return to the same spot on desktop and mobile.
+
 ## Why I’m building in public
 
 I work in digital strategy, marketing, e-commerce, and audience growth. I wanted a portfolio someone could actually use. A client or employer can browse the Network, try the tools, and ask me about the product and editorial choices, how I found and measured demand, or what changed after launch. I can show them the live experience and explain the work behind it.
