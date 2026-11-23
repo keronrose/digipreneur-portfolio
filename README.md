@@ -4,13 +4,23 @@
 
 I’m Keron Rose. I built Digipreneur Network to bring years of work in digital business, marketing, e-commerce, and technology into one place I own. Then I built two products around problems I kept seeing. **Digipreneur Jobs** helps people find remote opportunities they can realistically pursue. **Luna AI** helps them work out which of those jobs fit the experience they already have.
 
-[**Explore Digipreneur Network**](https://digipreneur.network/) · [**Browse Digipreneur Jobs**](https://digipreneur.network/jobs/) · [**Try Luna AI**](https://digipreneur.network/jobs/match/) · [**See a sample result**](#a-sample-luna-result)
+[**Explore Digipreneur Network**](https://digipreneur.network/) · [**Browse Digipreneur Jobs**](https://digipreneur.network/jobs/) · [**Try Luna AI**](https://digipreneur.network/jobs/match/) · [**See everything I built**](FEATURES.md)
+
+## The project at a glance
+
+| Product | What I built | Explore |
+| --- | --- | --- |
+| **Digipreneur Network** | A Caribbean editorial platform with media, a newsletter, a replay hub, and practical resources for digital careers, payments, and working across borders. | [Resource hub](https://digipreneur.network/resources/) |
+| **Digipreneur Jobs** | A live remote job board with employer-source checks, search, filters, Job Alerts, and dashboards for the inventory, operations, audience, and job market. | [Live jobs board](https://digipreneur.network/jobs/) |
+| **Luna AI** | A résumé matcher with ranked live jobs, evidence-based explanations, and a dashboard that tracks usage, match delivery, and reliability. | [Try Luna](https://digipreneur.network/jobs/match/) · [See a sample result](#a-sample-luna-result) |
 
 ## Why I built the Network
 
 For years, my work lived across radio, television, newspaper columns, podcasts, workshops, and social media. Somebody might hear me on *The Digital World* or see a CNC3 segment, then have to look somewhere else for the resources that would help them act on it. I wanted one home for that work, and somewhere I could build the resources I kept wishing existed for our region.
 
 Living in Asia gave me another view of how people use technology, get paid, and build businesses across borders. I wanted to bring those conversations back to the Caribbean in a way people here could use. Today, the Network brings together original media and resources like the [Digital Payments Resource Hub](https://digipreneur.network/digital-payments-resource-hub/) and the [Digital Nomad Destination Guide](https://digipreneur.network/top-digital-nomad-destinations-2027/).
+
+I added a [Digital Careers Workshop](https://digipreneur.network/the-digital-careers-workshop/), an [AI Literacy Baseline](https://digipreneur.network/the-ai-literacy-baseline/), and a [Digital Nomad Summit replay hub](https://digipreneur.network/digital-nomad-summit-2026/). Together with [Digipreneur FM](https://digipreneur.network/digipreneur-fm/), the newsletter, and the story pitch form, they give people more ways to learn, return, and contribute.
 
 It’s also my sandbox. I can try an idea, put it in front of real people, learn from how they use it, and show what I built and why. [Read my launch column in the *Trinidad and Tobago Guardian*.](https://www.guardian.co.tt/business/the-digipreneur-network-is-now-live-6.2.2684485.093e3008ba)
 
@@ -19,6 +29,16 @@ It’s also my sandbox. I can try an idea, put it in front of real people, learn
 For someone in the Caribbean, the word “remote” can send you halfway through an application before you discover the employer hires in one country. I wanted people to see those terms sooner, whether they planned to work from home, move abroad, or work while travelling.
 
 I built the Jobs Engine behind the board to connect to employer sources, capture new listings, and check what the employer actually says about hiring locations and working hours. Listings with unclear eligibility can go into review. The engine keeps a live inventory that visitors can search, filter, and use to go directly to the employer.
+
+### Job Alerts give people a reason to return
+
+A job seeker can save a search and get a browser notification when new records meet it. If several saved searches find the same vacancy, the system sends it once in a combined digest. People can remove a search or turn alerts off. This gives them a way to follow openings in their field without repeating the same search every morning.
+
+### The dashboard behind the board
+
+I built reporting for the work that happens after launch. The Overview brings together audience behavior and inventory. Engine Operations helps me find stalled sources, review listings and clear exceptions. Job Trends and Reporting Studio turn employer-stated requirements, pay disclosures and work arrangements into evidence I can use in public guides. That is how the same inventory supports a job seeker and a piece of editorial research. [See the Software & IT industry report.](https://digipreneur.network/remote-software-it-jobs-industry-report-2026/)
+
+I also built a specialist AI research workflow around discovery, verification, labour-market research, and quality review. The team traces leads to original employer sources and records evidence for the engine and editorial review process.
 
 That makes Jobs part of a wider journey on the Network. You can look for work, explore where you might live, and figure out how to receive payments across borders.
 
@@ -40,25 +60,29 @@ Luna lets someone start with their résumé. It compares their experience with l
 
 That’s the kind of result I wanted Luna to give people. You can see where your experience overlaps and what you’d want to confirm before applying.
 
-### How the two products work together
+### From the first build to Luna 2.5
 
-```mermaid
-flowchart TD
-    A["Employer career pages"] --> B["Jobs Engine checks the listing and hiring terms"]
-    B --> C["Live job inventory"]
-    C --> D["Digipreneur Jobs search and filters"]
-    C --> E["Luna AI job matcher"]
-    F["Job seeker's résumé"] --> E
-    E --> G["Relevant roles, résumé evidence, and requirements to check"]
-```
+| Stage | What changed for users |
+| --- | --- |
+| **Prototype and V1** | I turned the inbox request into a public tool. People could upload or paste their résumé, get ranked live jobs with explanations, and choose where to apply. |
+| **V2** | We improved the first results and tightened the link between a job requirement and the passage that supports it. We tested where the first five could be stronger and where an explanation was making a claim the résumé did not support. |
+| **2.5 and follow-up releases** | Luna got better at handling mixed careers, multiple duties in one job requirement, and work performed by somebody else. We added reusable job cards for new and changed adverts, clearer upload recovery, and more detailed performance tracking. |
 
-Luna AI uses **GPT-6 Luna** (`gpt-6-luna`) through the **OpenAI Responses API** to interpret résumé experience and help explain job recommendations. The application supplies the live listings and checks the model’s claims against the employer advert and résumé evidence before displaying the explanations.
+Luna uses **GPT-6 Luna** (`gpt-6-luna`) through the **OpenAI Responses API**. The application supplies current vacancies and checks the model’s claims against the job advert and résumé evidence. Job details open in the results, and people can sort by recency, refine preferences, and update the ranking without starting over.
+
+### How I know where to improve Luna
+
+Luna’s dashboard shows how many sessions start, reach ranked jobs and get explanations. It shows which career fields people request and which appear in results, plus upload errors, time to results, employer-link clicks and API spend. That lets me investigate whether a weak first page comes from limited inventory, how we ranked it, or what we said about a genuinely relevant role.
 
 ### A release in practice
 
 A fictional résumé said, “My director negotiated supplier contracts and I issued purchase orders.” The matcher could credit the applicant for the negotiations. The fix keeps the applicant’s purchase-order experience and excludes the director’s work from the explanation and Strong Match decision.
 
 The same release improved how Luna handles adverts that bundle several duties into one sentence. It now handles the building, testing, and deployment example without inventing a gap, while still flagging a missing duty such as resolving payroll queries. **All 21 targeted checks passed** on the private candidate and again after release. The checks used fictional examples.
+
+## Explore the build
+
+The [full feature inventory](FEATURES.md) walks through the Network's publishing and resource tools, the Jobs Engine's source and review workflow, Job Alerts, both reporting systems, and how Luna earns a match recommendation. It includes a diagram of how all three products connect.
 
 ## Why I’m building in public
 
