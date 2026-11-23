@@ -86,6 +86,12 @@ A fictional résumé said, “My director negotiated supplier contracts and I is
 
 The same release improved how Luna handles adverts that bundle several duties into one sentence. It now handles the building, testing, and deployment example without inventing a gap, while still flagging a missing duty such as resolving payroll queries. **All 21 targeted checks passed** on the private candidate and again after release. The checks used fictional examples.
 
+### Making Luna feel faster
+
+I tested the full journey from résumé upload to opening a job. The new release shows elapsed time and explains longer waits. When Luna can’t read a file, you can immediately paste the text or choose another file. Luna also loads nearby results pages and job details ahead of time so you can keep exploring while explanations arrive.
+
+I verified the changes on desktop and at mobile width, including slow connections and stalled requests. The reporting dashboard counts sessions where someone actually opened a job, with automatic preloads excluded.
+
 ## Explore the build
 
 The [full feature inventory](FEATURES.md) walks through the Network's publishing and resource tools, the Jobs Engine's source and review workflow, Job Alerts, both reporting systems, and how Luna earns a match recommendation. It includes a diagram of how all three products connect.
