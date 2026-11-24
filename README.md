@@ -44,6 +44,8 @@ A job seeker can save a search and get a browser notification when new records m
 
 I built reporting for the work that happens after launch. The Overview brings together audience behavior and inventory. Engine Operations helps me find stalled sources, review listings and clear exceptions. Job Trends and Reporting Studio turn employer-stated requirements, pay disclosures and work arrangements into evidence I can use in public guides. That is how the same inventory supports a job seeker and a piece of editorial research. [See the Software & IT industry report.](https://digipreneur.network/remote-software-it-jobs-industry-report-2026/)
 
+[**View the Digipreneur Jobs growth dashboard**](https://datastudio.google.com/reporting/25beb4e3-f114-457f-9fb1-f87a1ff44e08) to explore audience growth, acquisition channels, search visibility, and clicks through to employer application pages.
+
 I also built a specialist AI research workflow around discovery, verification, labour-market research, and quality review. The team traces leads to original employer sources and records evidence for the engine and editorial review process.
 
 That makes Jobs part of a wider journey on the Network. You can look for work, explore where you might live, and figure out how to receive payments across borders.
