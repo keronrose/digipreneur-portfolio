@@ -111,3 +111,22 @@ I work in digital strategy, marketing, e-commerce, and audience growth. I wanted
 That’s what connects all three projects for me. The Network gives my work a home. Jobs makes opportunities easier to find. Luna helps people make sense of those opportunities using their own experience.
 
 [**Try Luna AI**](https://digipreneur.network/jobs/match/) · [**More about my work**](https://keronrose.com/about-keron-rose/) · [**Get in touch**](https://digipreneur.network/contact/)
+
+
+## Product update · November 26, 2026
+
+**Digipreneur Jobs search.** Searching for “lawyer” now brings up relevant lawyer and counsel titles. Searching for “lawer” offers a spelling correction and a way to search for the original term. Keyword searches default to Best match, and visitors can still choose Newest or Trending. When a date filter leaves no results, the board shows which filter is limiting the search and lets the visitor decide whether to remove it. [Try Jobs search](https://digipreneur.network/jobs/?dj_q=lawyer)
+
+**Luna AI.** A stretch result can now show the résumé-backed overlap before the requirement the applicant still needs to check. When Luna finds no clear overlap, the card can show a job preview. A card also shows **Apply by** when the employer’s advert gives a clear deadline. If the first ten pages of a PDF yield too little readable text, Luna checks the remaining pages within the 20-page limit. [Try Luna AI](https://digipreneur.network/jobs/match/)
+
+### Sample stretch result · Commercial Counsel
+
+*Fictional résumé and job listing. The closing date illustrates a date supplied by the employer.*
+
+**Employer** · Example Legal Services  
+**Apply by** · December 4, 2026
+
+| What the card shows | Sample |
+| --- | --- |
+| **Why this role is worth a look** | The résumé describes reviewing vendor contracts and tracking revisions. That experience overlaps with the employer’s commercial contract review work. |
+| **What makes this a stretch** | The employer requires admission to a specified bar. Luna could not confirm that credential from the résumé. |
