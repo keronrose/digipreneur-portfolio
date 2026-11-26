@@ -153,3 +153,23 @@ That’s what connects all three projects for me. The Network gives my work a ho
 Luna uses GPT-6 Luna through the OpenAI Responses API. The Strong Match standard stays the same.
 
 [Try Luna AI with your résumé](https://digipreneur.network/jobs/match/)
+
+
+### Sample Luna result · No confirmed résumé overlap
+
+*Fictional job and résumé example. The résumé describes general administrative work. The employer is hiring a Payroll Operations Coordinator.*
+
+> **No confirmed résumé overlap**
+>
+> Luna compared this role with your résumé and couldn’t verify a connection to the employer’s requirements.
+>
+> **What to check before applying**
+>
+> - “Reconcile payroll deductions before pay runs.”
+> - “Investigate and resolve employee payroll queries.”
+>
+> **About the role**
+>
+> Help run payroll, reconcile deductions and answer employee pay queries.
+
+The card keeps the job preview and the link to the full listing. If the listing is too sparse to compare, Luna shows **Limited detail in the job listing** and points to the full description.
