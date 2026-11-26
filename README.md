@@ -130,3 +130,26 @@ That’s what connects all three projects for me. The Network gives my work a ho
 | --- | --- |
 | **Why this role is worth a look** | The résumé describes reviewing vendor contracts and tracking revisions. That experience overlaps with the employer’s commercial contract review work. |
 | **What makes this a stretch** | The employer requires admission to a specified bar. Luna could not confirm that credential from the résumé. |
+
+
+## Product update · November 27, 2026
+
+### Jobs search understands more job titles
+
+**Before:** The board could miss a relevant job when you searched for a title that used different wording from the employer’s listing. The first search update addressed legal titles such as “lawyer” and “counsel.”
+
+**After:** The same approach now covers 102 groups of related job titles across all 21 career fields. For example, a search for **procurement coordinator** surfaced a **Purchasing Coordinator** listing. Exact title matches still take priority, and live results change as employers post and close roles.
+
+[Try the procurement search on Digipreneur Jobs](https://digipreneur.network/jobs/?dj_q=procurement+coordinator)
+
+### Sample Luna result · Platform Engineer
+
+*Fictional job and résumé example.*
+
+- **Why this role is worth a look:** The résumé describes deploying containerized services to Azure Kubernetes Service. That experience is relevant to the employer’s container deployment work.
+- **What makes this a stretch:** The employer also asks for production serverless deployments. The résumé excerpt only shows container deployments, so the applicant should check whether they can give a serverless example.
+- **Employer preference:** The advert says “preferably in AWS.” Luna shows AWS as a preference. Azure experience still supports the container deployment part of the role.
+
+Luna uses GPT-6 Luna through the OpenAI Responses API. The Strong Match standard stays the same.
+
+[Try Luna AI with your résumé](https://digipreneur.network/jobs/match/)
