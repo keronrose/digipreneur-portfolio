@@ -173,3 +173,23 @@ Luna uses GPT-6 Luna through the OpenAI Responses API. The Strong Match standard
 > Help run payroll, reconcile deductions and answer employee pay queries.
 
 The card keeps the job preview and the link to the full listing. If the listing is too sparse to compare, Luna shows **Limited detail in the job listing** and points to the full description.
+
+## Product update · November 28, 2026
+
+### Jobs Engine V3.4 brings better evidence into editorial review
+
+The Jobs Engine now captures the employer’s wording on remote work, hiring geography, work authorization, physical duties, and travel. Reviewers can see where the evidence is missing or contradictory and record a reason and note for each decision.
+
+- **Review related jobs together.** Editors can group pending listings by employer and career field, skip individual roles, and see when jobs in the same group have different hiring locations. Each selected job still goes through its own checks. Past decisions give editors context for the current review.
+- **Hold uncertain listings for a closer look.** On Workday, new automatic listings can go to review when the engine detects site-based duties or conflicting evidence, or when the check itself fails. Other sources are still being monitored before wider rollout.
+- **Handle broad LATAM hiring more carefully.** When an employer’s structured hiring location says LATAM and the only issue is that worldwide hiring isn’t stated, the engine can send the job to an editor. Explicit country lists, residency rules, and work authorization requirements still take precedence.
+
+[Browse Digipreneur Jobs](https://digipreneur.network/jobs/)
+
+### Luna AI reads more PDFs and makes it easier to recover
+
+I fixed a readability check that could reject PDFs with selectable text in languages such as Thai and Japanese. A synthetic Thai résumé that the previous version rejected passed on the live release.
+
+If a scan has too little readable text, Luna offers a way to paste your résumé or upload a Word file. If Luna can’t build a profile after an unclassified API rejection, it now offers recovery options in place of a generic outage message. Luna still uses **GPT-6 Luna** through the **OpenAI Responses API** for matching and explanations.
+
+[Try Luna AI with your résumé](https://digipreneur.network/jobs/match/)
